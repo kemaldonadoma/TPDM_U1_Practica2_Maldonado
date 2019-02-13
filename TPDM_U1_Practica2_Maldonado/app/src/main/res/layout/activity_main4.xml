@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="15dp"
+    android:rowCount="8"
+    android:background="#eeeeee"
+    tools:context=".Main4Activity">
+
+    <TextView android:text="Cos'è un bambino?"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <ImageView android:src="@drawable/morro"
+        android:layout_height="170dp"
+        android:layout_width="180dp"
+        />
+    <ImageView android:src="@drawable/lapiz"
+        android:layout_height="170dp"
+        android:layout_width="180dp"/>
+    <RadioButton
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:hint="El Joven"
+        android:layout_marginLeft="15dp" />
+    <RadioButton
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:hint="El Lapiz"
+        android:layout_marginLeft="15dp"/>
+
+
+    <ImageView android:src="@drawable/acayapan"
+        android:layout_height="170dp"
+        android:layout_width="180dp"/>
+    <ImageView android:src="@drawable/moshilauwu"
+        android:layout_height="170dp"
+        android:layout_width="180dp"/>
+
+
+    <RadioButton
+        android:hint="El Camion"
+        android:layout_marginLeft="15dp"/>
+    <RadioButton
+        android:hint="La Mochila"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:text="Confirmar"
+        android:layout_width="match_parent"/>
+
+</GridLayout>
